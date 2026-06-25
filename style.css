@@ -97,26 +97,65 @@ li:hover {
     animation: slideRight 1.5s ease-out forwards;
     animation-delay: 0.8s;
 }
+
 /* Rise Animation */
-@keyframes riseUp{
-    from{
-        transform: translateY(100px);
+@keyframes riseUp {
+    from {
+        transform: translateY(500px);
         opacity: 0;
     }
-    to{
+
+    to {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
 /* Left to Right Animation */
-@keyframes slideRight{
-    from{
-        transform: translateX(-150px);
+@keyframes slideRight {
+    from {
+        transform: translateX(-500px);
         opacity: 0;
     }
-    to{
+
+    to {
         transform: translateX(0);
         opacity: 1;
     }
 }
+
+/*      ------------------------------About_US Css */
+
+.container {
+    background-color: #46372b;
+    display: flex;
+    justify-content: center;
+    border: solid #fff 2px;
+}
+
+.border {
+    border: solid #fff 2px;
+    display: flex;
+    margin: 100px;
+}
+
+.aboutImg {
+    background-image: url(/images/aboutUs.jpg);
+    object-fit: contain;
+    height: 500px;
+    width: 60%;
+
+
+
+}
+
+.aboutContainer {
+    width: 30%;
+    height: auto;
+    margin: 15px;
+    color: #fff;
+    margin-left: 55px;
+
+}
+
+.abtHeading {}
