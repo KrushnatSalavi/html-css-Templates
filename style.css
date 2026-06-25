@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+
+}
+
+#Home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("/images/Modern\ Building\ Exterior.jpg");
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    width: 100%;
+}
+
+.navList {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #fff;
+    position: sticky;
+    padding: 25px 50px;
+
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+.heading {
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.heading1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.heading2 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.NavBtn{
+    height: 40px;
+    width: 100px;
+}
