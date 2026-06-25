@@ -10,7 +10,8 @@
 #Home {
     width: 100%;
     min-height: 100vh;
-    background-image: url("/images/Modern\ Building\ Exterior.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.25)), url("/images/Modern\ Building\ Exterior.jpg");
+
 }
 
 nav {
@@ -31,8 +32,8 @@ nav {
 
 }
 
-li:hover{
-    text-decoration: underline;
+li:hover {
+    text-decoration: underline rgb(255, 255, 255);
 }
 
 .heading {
@@ -57,7 +58,65 @@ li:hover{
     text-transform: uppercase;
 }
 
-.NavBtn{
-    height: 40px;
-    width: 100px;
+.NavBtn {
+    height: 45px;
+    width: 130px;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: solid rgb(187, 184, 184) 2px;
+}
+
+.NavBtn:hover {
+    border: solid #989898 3px;
+    transform: scale(1.1);
+}
+
+.bodyHeading {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.b1 {
+    color: white;
+    font-size: 7rem;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 50px;
+    font-family: Georgia, serif;
+    animation: riseUp 1.5s ease-out forwards;
+}
+
+.b2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    animation: slideRight 1.5s ease-out forwards;
+    animation-delay: 0.8s;
+}
+/* Rise Animation */
+@keyframes riseUp{
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Left to Right Animation */
+@keyframes slideRight{
+    from{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
