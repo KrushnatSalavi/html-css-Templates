@@ -185,18 +185,22 @@ li:hover {
 .ServiceContainer{
     background-color: #46372b;
     justify-content: center;
-    height: auto;
-    margin: 50px;
 }
 
 .serviceHead{
     width: 400px;
-    height: auto;
     color: #fff;
 }
 
 .SerHeading{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 1;
+    margin-left: 20px;
+    margin-top: 200px;
     
+}
+.service{
+     width: 100%;
+    min-height: 100vh;
+
 }
