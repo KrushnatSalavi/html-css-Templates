@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    /* background-color: #46372b; */
+    background-color: #46372b;
 
 
 }
@@ -52,8 +52,10 @@ li:hover {
 .heading1 {
     color: white;
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: 1;
     letter-spacing: 2px;
+    font-family: serif;
+
 }
 
 .heading2 {
@@ -95,6 +97,8 @@ li:hover {
     margin-bottom: 50px;
     font-family: Georgia, serif;
     animation: riseUp 1.5s ease-out forwards;
+    font-family: serif;
+
 }
 
 .b2 {
@@ -103,6 +107,8 @@ li:hover {
     font-weight: 3;
     animation: slideRight 1.5s ease-out forwards;
     animation-delay: 0.8s;
+    font-family: serif;
+
 }
 
 /* Rise Animation */
@@ -169,12 +175,16 @@ li:hover {
     font-size: 50px;
     font-weight: 3;
     margin: 20px;
+    font-family: serif;
+
 }
 
 .abtHeading2 {
     font-size: 25px;
     font-weight: 3;
     margin: 20px;
+    font-family: serif;
+
 }
 
 .aboutTXT {
@@ -184,38 +194,51 @@ li:hover {
 
 .ServiceContainer {
     background-color: #46372b;
-    margin-top: 100px;
+
     color: #fff;
-    margin-left: 60px;
+    margin: 60px;
+    margin-top: 100px;
 }
 
 .serviceBody {
-    background-color: #46372b; 
+    background-color: #46372b;
     height: auto;
-    width: 100%; 
-     margin: 60px; 
-} 
+    width: 100%;
+    /* margin: 60px;  */
+}
 
-.serviceHead{
+.serviceHead {
     width: 500px;
     justify-content: center;
 }
 
-.SerHeading{
+.SerHeading {
     font-size: 70px;
     font-weight: 1;
+    font-family: serif;
+
 }
 
-.serviceTxt{
+.serviceTxt {
     justify-content: center;
     line-height: 1.5;
 }
- 
-.Practies{
-    
-} 
 
-.PracticesHeading{
+.Practies {
+    height: auto;
+    width: 100%;
+}
+
+.PracticesHeading {
     background-color: #2c200b;
     color: #fff;
-} 
+    height: 100px;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: normal;
+    border: solid #fff 1px;
+    font-family: serif;
+
+}
