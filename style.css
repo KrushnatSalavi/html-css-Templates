@@ -190,10 +190,11 @@ li:hover {
 }
 
 .serviceBody {
-    background-color: #46372b;
+    background-color: #46372b; 
     height: auto;
-    width: 100%;
-}
+    width: 100%; 
+     margin: 60px; 
+} 
 
 .serviceHead{
     width: 500px;
@@ -209,3 +210,12 @@ li:hover {
     justify-content: center;
     line-height: 1.5;
 }
+ 
+.Practies{
+    
+} 
+
+.PracticesHeading{
+    background-color: #2c200b;
+    color: #fff;
+} 
