@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    background-color: #46372b;
+    /* background-color: #46372b; */
 
 
 }
@@ -21,9 +21,10 @@ nav {
     align-items: center;
     padding: 25px 50px;
     width: 100%;
-    position:fixed;
+    /* position: fixed; */
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
@@ -33,7 +34,6 @@ a{
     gap: 50px;
     list-style: none;
     color: #fff;
-    
     padding: 25px 50px;
 
 }
@@ -171,36 +171,26 @@ li:hover {
     margin: 20px;
 }
 
-.abtHeading2{
+.abtHeading2 {
     font-size: 25px;
     font-weight: 3;
-     margin: 20px;
+    margin: 20px;
 }
 
-.aboutTXT{
+.aboutTXT {
     margin: 20px;
     line-height: 25px;
 }
 
-.ServiceContainer{
+.ServiceContainer {
     background-color: #46372b;
-    justify-content: center;
-}
-
-.serviceHead{
-    width: 400px;
+    margin-top: 100px;
     color: #fff;
+    margin-left: 50px;
 }
 
-.SerHeading{
-    font-size: 60px;
-    font-weight: 1;
-    margin-left: 20px;
-    margin-top: 200px;
-    
-}
-.service{
-     width: 100%;
-    min-height: 100vh;
-
+.serviceBody {
+    background-color: #46372b;
+    height: auto;
+    width: 100%;
 }
