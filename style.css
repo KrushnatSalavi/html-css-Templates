@@ -243,27 +243,47 @@ li:hover {
 
 }
 
-.PracticesImag{
+.PracticesContainer {
+    display: flex;
+}
+
+.PracticesImag {
     height: 600px;
     width: 500px;
     border: solid #fff 1px;
 
 }
-.imagesContainer{
+
+.imagesContainer {
     width: 500px;
 }
 
-.imagesContainer{
+.imagesContainer {
     padding: 40px;
     border: solid #fff 1px;
     line-height: 25px;
     font-weight: 1;
     margin-top: -5px;
 
-      
+
 }
 
-.FlooringHading{
+.FlooringHading {
     margin: 10px 0;
 }
 
+.ThreeContTxt {
+    margin: 20px;
+    padding: 40px;
+    border: solid #fff 1px;
+    line-height: 25px;
+    font-weight: 1;
+    margin-top: -5px;
+    height: 250px;
+
+
+}
+
+.ThreeContTxt2 {
+    margin: 20px;
+}
