@@ -242,3 +242,19 @@ li:hover {
     font-family: serif;
 
 }
+
+.PracticesImag{
+    height: 600px;
+    width: 500px;
+    border: solid #fff 1px;
+
+}
+.imagesContainer{
+    width: 500px;
+}
+
+.imagesContainer{
+    padding-top: 50px;
+    border: solid #fff 1px;
+    
+}
