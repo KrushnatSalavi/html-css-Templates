@@ -253,10 +253,13 @@ li:hover {
     border: solid #fff 1px;
 
 }
-
-.imagesContainer {
-    width: 500px;
+.PracticesImag2{
+    height: 600px;
+    width: 493px;
+    border: solid #fff 1px;
 }
+
+
 
 .imagesContainer {
     padding: 40px;
@@ -264,6 +267,8 @@ li:hover {
     line-height: 25px;
     font-weight: 1;
     margin-top: -5px;
+    height: 300px;
+    width: 500px;
 
 
 }
@@ -272,18 +277,31 @@ li:hover {
     margin: 10px 0;
 }
 
+
 .ThreeContTxt {
     margin: 20px;
     padding: 40px;
     border: solid #fff 1px;
     line-height: 25px;
     font-weight: 1;
-    margin-top: -5px;
-    height: 250px;
+    margin: -1px;
+    height: 300.8px;
+    width: 400px;
 
 
 }
 
 .ThreeContTxt2 {
     margin: 20px;
+}
+
+.imagesContainer2{
+
+    padding: 40px;
+    border: solid #fff 1px;
+    line-height: 25px;
+    font-weight: 1;
+    margin-top:-4px;
+    height: 300px;
+    width: 493px;
 }
