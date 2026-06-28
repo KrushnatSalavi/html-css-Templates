@@ -192,6 +192,8 @@ li:hover {
     line-height: 25px;
 }
 
+/*  --------------------------------Service Page */
+
 .ServiceContainer {
     background-color: #46372b;
 
@@ -204,7 +206,8 @@ li:hover {
     background-color: #46372b;
     height: auto;
     width: 100%;
-    /* margin: 60px;  */
+    margin: 0 30px 0 30px;
+    justify-content: center;
 }
 
 .serviceHead {
@@ -256,7 +259,8 @@ li:hover {
     border: solid #fff 1px;
 
 }
-.PracticesImag2{
+
+.PracticesImag2 {
     height: 600px;
     width: 493px;
     border: solid #fff 1px;
@@ -299,13 +303,41 @@ li:hover {
     margin: 20px;
 }
 
-.imagesContainer2{
+.imagesContainer2 {
 
     padding: 40px;
     border: solid #fff 1px;
     line-height: 25px;
     font-weight: 1;
-    margin-top:-1px;
+    margin-top: -1px;
     height: 300px;
     width: 493px;
+}
+
+.expertiseHeading {
+    font-size: 60px;
+    font-family: serif;
+    background-color: #2c200b;
+    border: solid #fff 1px;
+    text-align: center;
+    color: #fff;
+    font-weight: 1;
+    margin: 60px 60px 0;
+    /* width: 600px; */
+}
+
+.expertiseContainer2 {
+    display: flex;
+    color: #fff;
+    margin: 0 60px 0;
+
+}
+
+.expertise {
+    width: 500px;
+    height: 200px;
+    border: solid #fff 1px;
+    padding: 50px;
+    
+
 }
