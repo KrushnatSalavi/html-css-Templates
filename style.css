@@ -222,6 +222,9 @@ li:hover {
 .serviceTxt {
     justify-content: center;
     line-height: 1.5;
+    word-spacing: 5px;
+    font-size: 18px;
+    font-weight: 1;
 }
 
 .Practies {
