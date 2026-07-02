@@ -356,3 +356,66 @@ li:hover {
     width: 92%;
     border: solid #fff 2px;
 }
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    height: auto;
+}
+.heading_Footer {
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 50px auto 0 60px;
+    margin: 25px;
+}
+
+.heading1_Footer{
+    color: white;
+    font-size: 3rem;
+    font-weight: 1;
+    letter-spacing: 2px;
+    font-family: serif;
+
+}
+
+.heading2_Footer{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.socialTXT{
+    font-size: 25px;
+    color: #fff;
+    margin: 50px auto 0 20px;
+    font-weight: 1px;  
+
+}
+
+.social{ 
+    border-right: 2px solid #fff;
+    height: 200px;
+    width: 70vh;
+    margin: 20px;
+}
+
+.contact{
+    border-right: 2px solid #fff;
+    height: 200px;
+    width: 70vh;
+    margin: 25px;
+}
+
+.contact_Hed{
+    margin-bottom: 20px;
+}
+
+.emial{
+    margin: 20px 0 20px 0;
+}
