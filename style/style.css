@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    /* background-color: #46372b; */
+
+
+}
+
+#Home {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.25)), url("/images/Modern\ Building\ Exterior.jpg");
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    width: 100%;
+    /* position: fixed; */
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navList {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #fff;
+    padding: 25px 50px;
+
+}
+
+li:hover {
+    text-decoration: underline rgb(255, 255, 255);
+}
+
+.heading {
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.heading1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 1;
+    letter-spacing: 2px;
+    font-family: serif;
+
+}
+
+.heading2 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.NavBtn {
+    height: 45px;
+    width: 130px;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: solid rgb(187, 184, 184) 2px;
+    background-color: #fff;
+}
+
+.NavBtn:hover {
+    border: solid #989898 3px;
+    transform: scale(1.1);
+}
+
+.bodyHeading {
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.b1 {
+    color: white;
+    font-size: 7rem;
+    font-weight: 3;
+    line-height: 1;
+    margin-bottom: 50px;
+    font-family: Georgia, serif;
+    animation: riseUp 1.5s ease-out forwards;
+    font-family: serif;
+
+}
+
+.b2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 3;
+    animation: slideRight 1.5s ease-out forwards;
+    animation-delay: 0.8s;
+    font-family: serif;
+
+}
+
+/* Rise Animation */
+@keyframes riseUp {
+    from {
+        transform: translateY(500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Left to Right Animation */
+@keyframes slideRight {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/*      ------------------------------About_US Css */
+
+.container {
+    background-color: #46372b;
+    display: flex;
+    justify-content: center;
+    border: solid #fff 2px;
+}
+
+.border {
+    border: solid #fff 2px;
+    display: flex;
+    margin: 100px;
+}
+
+.aboutImg {
+    background-image: url(/images/aboutUs.jpg);
+    object-fit: contain;
+    height: 500px;
+    width: 60%;
+
+
+
+}
+
+.aboutContainer {
+    width: 30%;
+    height: auto;
+    margin: 15px;
+    color: #fff;
+    margin-left: 55px;
+
+}
+
+.abtHeading {
+    font-size: 50px;
+    font-weight: 3;
+    margin: 20px;
+    font-family: serif;
+
+}
+
+.abtHeading2 {
+    font-size: 25px;
+    font-weight: 3;
+    margin: 20px;
+    font-family: serif;
+
+}
+
+.aboutTXT {
+    margin: 20px;
+    line-height: 25px;
+}
+
+

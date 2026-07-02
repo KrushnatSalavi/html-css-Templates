@@ -79,121 +79,6 @@ li:hover {
     border: solid #989898 3px;
     transform: scale(1.1);
 }
-
-.bodyHeading {
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.b1 {
-    color: white;
-    font-size: 7rem;
-    font-weight: 3;
-    line-height: 1;
-    margin-bottom: 50px;
-    font-family: Georgia, serif;
-    animation: riseUp 1.5s ease-out forwards;
-    font-family: serif;
-
-}
-
-.b2 {
-    color: white;
-    font-size: 25px;
-    font-weight: 3;
-    animation: slideRight 1.5s ease-out forwards;
-    animation-delay: 0.8s;
-    font-family: serif;
-
-}
-
-/* Rise Animation */
-@keyframes riseUp {
-    from {
-        transform: translateY(500px);
-        opacity: 0;
-    }
-
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-/* Left to Right Animation */
-@keyframes slideRight {
-    from {
-        transform: translateX(-500px);
-        opacity: 0;
-    }
-
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-/*      ------------------------------About_US Css */
-
-.container {
-    background-color: #46372b;
-    display: flex;
-    justify-content: center;
-    border: solid #fff 2px;
-}
-
-.border {
-    border: solid #fff 2px;
-    display: flex;
-    margin: 100px;
-}
-
-.aboutImg {
-    background-image: url(/images/aboutUs.jpg);
-    object-fit: contain;
-    height: 500px;
-    width: 60%;
-
-
-
-}
-
-.aboutContainer {
-    width: 30%;
-    height: auto;
-    margin: 15px;
-    color: #fff;
-    margin-left: 55px;
-
-}
-
-.abtHeading {
-    font-size: 50px;
-    font-weight: 3;
-    margin: 20px;
-    font-family: serif;
-
-}
-
-.abtHeading2 {
-    font-size: 25px;
-    font-weight: 3;
-    margin: 20px;
-    font-family: serif;
-
-}
-
-.aboutTXT {
-    margin: 20px;
-    line-height: 25px;
-}
-
-/*  --------------------------------Service Page */
-
 .ServiceContainer {
     background-color: #46372b;
     color: #fff;
@@ -266,7 +151,7 @@ li:hover {
 
 .PracticesImag2 {
     height: 600px;
-    width: 443px;
+    width: 500px;
     border: solid #fff 1px;
 }
 
@@ -315,7 +200,7 @@ li:hover {
     font-weight: 1;
     margin-top: -1px;
     height: 300px;
-    width: 443px;
+    width: 500px;
 }
 
 .expertiseHeading {
