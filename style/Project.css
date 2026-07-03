@@ -5,6 +5,57 @@
     font-family: Arial, sans-serif;
 }
 
+nav{
+    display: flex;
+    flex: row;
+}
+.heading{
+    display: flex;
+
+}
+
+.heading1{
+    font-size: 50px;
+}
+
+.heading2{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.navList{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 50px;
+    position: fixed;
+    right: 0;
+    margin-right: 60px;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li:hover {
+    text-decoration: underline rgb(255, 255, 255);
+}
+
+.NavBtn{
+    height: 45px;
+    width: 130px;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: solid rgb(187, 184, 184) 2px;
+    background-color: #fff;
+}
+
+.NavBtn:hover {
+    border: solid #989898 3px;
+    transform: scale(1.1);
+}
+
 body{
     background-color: #46372b;
     color: #fff;
@@ -16,6 +67,7 @@ body{
 
 .projectHead{
     width: 500px;
+    margin-top: 15vh;
     
 }
 
