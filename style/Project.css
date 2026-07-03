@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #46372b;
+    color: #fff;
+}
+
+.container{
+    margin: 60px;
+}
+
+.projectHead{
+    width: 500px;
+    
+}
+
+.projectHeading{
+    font-size: 4rem;
+    font-weight: 1;
+}
+
+.projectTxt{
+    line-height: 25px;
+    font-size: 1.2rem;
+}
