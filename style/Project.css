@@ -155,3 +155,16 @@ body{
 
     object-fit:cover;
 }
+
+.img1:hover{
+    transform: scale(1.1);
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+.bottom-image:hover{
+    transform: scale(1.1);
+}
