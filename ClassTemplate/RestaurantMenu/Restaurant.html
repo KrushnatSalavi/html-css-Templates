@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Restaurant Menu</title>
+    <style>
+      /* Simple background color and font choice */
+      body {
+        background-color: #cda149;
+        color: #333333;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+      
+      /* Centers the menu on the screen */
+      .menu-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 30px;
+        border: 2px solid #dcd1be;
+      }
+      
+      /* Header styling */
+      h1 {
+        text-align: center;
+        color: #8b0000; /* Dark Red color */
+        margin-bottom: 5px;
+      }
+      
+      .subtitle {
+        text-align: center;
+        font-style: italic;
+        color: #666666;
+        margin-bottom: 30px;
+      }
+      
+      /* Category headings */
+      h2 {
+        color: #8b0000;
+        border-bottom: 2px solid #8b0000;
+        padding-bottom: 5px;
+        margin-top: 30px;
+      }
+      
+      /* Container for each food item */
+      .menu-item {
+        margin-bottom: 20px;
+      }
+      
+      /* Keeps image, text, and price lined up */
+      .item-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      /* Basic styling for food images */
+      .food-img {
+        width: 60px;
+        height: 60px;
+        border-radius: 4px;
+        background-color: #e0e0e0;
+        margin-right: 15px;
+      }
+      
+      /* Groups image and text together on the left */
+      .left-side {
+        display: flex;
+        align-items: center;
+      }
+      
+      .item-name {
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+      
+      .item-description {
+        font-size: 0.9rem;
+        color: #555555;
+        margin-top: 4px;
+        padding-left: 75px; /* Aligns description text nicely under the name */
+      }
+      
+      .price {
+        font-weight: bold;
+        color: #8b0000;
+        font-size: 1.1rem;
+      }
+      
+      /* Contact Information box at the bottom */
+      .contact-info {
+        margin-top: 40px;
+        padding: 15px;
+        background-color: #f5f0e6;
+        border-top: 1px solid #dcd1be;
+        text-align: center;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu-container">
+      <!-- Header -->
+      <h1>The Corner Cafe</h1>
+      <p class="subtitle">Fresh Food Served Daily</p>
+
+      <!-- Category 1: Starters -->
+      <h2>Starters</h2>
+
+      <div class="menu-item">
+        <div class="item-info">
+          <div class="left-side">
+            <div class="food-img"></div> <!-- You can add an <img> tag inside here later -->
+            <span class="item-name">Garlic Bread</span>
+          </div>
+          <span class="price">100/-</span>
+        </div>
+        <p class="item-description">Toasted bread topped with garlic butter and herbs.</p>
+      </div>
+
+      <div class="menu-item">
+        <div class="item-info">
+          <div class="left-side">
+            <div class="food-img"></div>
+            <span class="item-name">Tomato Soup</span>
+          </div>
+          <span class="price">60/-</span>
+        </div>
+        <p class="item-description">Creamy homemade tomato soup served with crackers.</p>
+      </div>
+
+      <!-- Category 2: Mains -->
+      <h2>Main Course</h2>
+
+      <div class="menu-item">
+        <div class="item-info">
+          <div class="left-side">
+            <div class="food-img"></div>
+            <span class="item-name">Cheese Burger</span>
+          </div>
+          <span class="price">200/-</span>
+        </div>
+        <p class="item-description">Juicy beef patty with cheddar cheese, lettuce, and tomato.</p>
+      </div>
+
+      <div class="menu-item">
+        <div class="item-info">
+          <div class="left-side">
+            <div class="food-img"></div>
+            <span class="item-name">Veggie Pasta</span>
+          </div>
+          <span class="price">100/-</span>
+        </div>
+        <p class="item-description">Penne pasta with mixed seasonal vegetables in tomato sauce.</p>
+      </div>
+
+      <!-- Contact Details -->
+      <div class="contact-info">
+        <p>
+          <strong>Find Us:</strong> 456 Main Street, Townsville
+        </p>
+        <p>
+          <strong>Call to Order:</strong> (555) 123-4567
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
