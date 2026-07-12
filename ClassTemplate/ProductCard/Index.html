@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Product Card</title>
+    <style>
+      /* Center everything on a soft light-gray background */
+      body {
+        background-color: #515356;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      
+      /* The Main Product Card Container */
+      .product-card {
+        background-color: #ffffff;
+        width: 300px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden; /* Keeps the image corners rounded */
+        padding: 16px;
+      }
+      
+      /* Box for the product image */
+      .product-image {
+        width: 100%;
+        height: 200px;
+        background-color: #e5e7eb; /* Gray placeholder background */
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #9ca3af;
+        font-weight: bold;
+      }
+      
+      /* Product Name */
+      .product-name {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #1f2937;
+        margin: 15px 0 8px 0;
+      }
+      
+      /* Product Description */
+      .product-description {
+        font-size: 0.9rem;
+        color: #6b7280;
+        line-height: 1.4;
+        margin: 0 0 15px 0;
+      }
+      
+      /* Price tag styling */
+      .product-price {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #059669; /* Dark green for price */
+        margin-bottom: 15px;
+      }
+      
+      /* Buy Now Button */
+      .buy-btn {
+        width: 100%;
+        background-color: #2563eb; /* Royal blue color */
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 6px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+      
+      /* Changes button color slightly when you hover your mouse over it */
+      .buy-btn:hover {
+        background-color: #1d4ed8;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Product Card Structure -->
+    <div class="product-card">
+      <!-- Product Image (Placeholder) -->
+      <div class="product-image">
+        
+           <img src="Images/Latest5.jpg" class="product-image" alt="Product">  
+      </div>
+
+      <!-- Product Information -->
+      <div class="product-name">Product</div>
+
+      <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sunt eos sit ipsam aperiam.
+         Ut qui temporibus libero ipsa nobis ducimus neque numquam magni at! Pariatur et libero dignissimos quaerat.</p>
+
+      <div class="product-price">100/-</div>
+
+      <!-- Action Button -->
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </body>
+</html>
