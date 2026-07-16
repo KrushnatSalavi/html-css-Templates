@@ -1,15 +1,87 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #ffff;
 }
 
 body {
-    background-image: url("/ClassTemplate/TravelWeb/Images/travel-specialist-bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25)), url("/ClassTemplate/TravelWeb/Images/travel-specialist-bg.jpg");
     min-height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
+}
+
+.container {
+    width: 80%;
+    margin: 5% 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10vh;
+    position: absolute;
+    right: 20vh;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.heading{
+    margin-top: 25vh;
+}
+
+.heading h1{
+    font-size: 6rem;
+    letter-spacing: 8px;
+}
+
+.book{
+    margin-top: 8rem;
+    width: 50%;
+    height: 8vh;
+    background-color: #ffff;
+    color: black;
+    border-radius: 20px;
+   
+
+}
+
+.book ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10vh;
+     margin: 10%;
+     padding-top: 2vh;
+}
+
+.book ul li{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.book ul button{
+    width: 13vh;
+    height: 4vh;
+    color: black;
+    border-radius: 20px;
 }
